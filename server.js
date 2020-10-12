@@ -14,12 +14,16 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //Adding my db connection here//
-mongoose.connect(process.env.DATABASE_URL, {
-  useNewUrlParser: true,
-  useFindAndModify: false,
-  useCreateIndex: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/budgetDB',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
+
 // routes
 app.use(require("./routes/api.js"));
 app.listen(PORT, () => {
