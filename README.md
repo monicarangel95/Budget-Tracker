@@ -12,7 +12,7 @@ A Budget Tracker application that allows the user to be able to add expenses and
 
 ## Deployed Site
 TBA
-<!-- ![Home](public/assets/img/app.png)  -->
+![Home](public/icons/app.png)
 
 ## Installation 
 NPM Install - node, mongodb, express, mongoose, webpack
