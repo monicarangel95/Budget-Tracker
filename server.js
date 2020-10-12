@@ -20,7 +20,6 @@ mongoose.connect(process.env.DATABASE_URL, {
   useCreateIndex: true,
   useUnifiedTopology: true,
 });
-
 // routes
 app.use(require("./routes/api.js"));
 app.listen(PORT, () => {
