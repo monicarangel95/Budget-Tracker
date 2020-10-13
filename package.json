@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Monica Rangel",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
@@ -22,6 +22,7 @@
     "compression": "^1.7.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "life-server": "^7.0.0",
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
